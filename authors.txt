@@ -1,0 +1,3 @@
+agross@therightstuff.de = Alexander Groß <agross@therightstuff.de>
+marnix@alanta.nl = Marnix van Valen <marnix@alanta.nl>
+(no author) = nobody <nobody@example.com>
