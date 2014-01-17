@@ -35,5 +35,5 @@ git for-each-ref refs/heads |
     first_local_commit=`git log --format=%H $remote_branch_name..$branch_name | tail -1`
 
     # Transplant local commits to the SVN branch containing the whole history.
-    git rebase --onto $remote/$remote_branch_name $first_local_commit~1 master
+    git rebase --onto $remote/$remote_branch_name $first_local_commit~1 $branch_name
   done
